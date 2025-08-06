@@ -1,0 +1,150 @@
+.gridd{
+display: grid;
+
+  
+        grid-template-areas :
+        'learnMore learnMore learnMore learnMore'
+
+        'iphone iphone iphone iphone'
+        'keyboard keyboard games games'
+        'retina retina retina retina'
+        'twitter twitter icloud icloud'
+        'choice choice icloud icloud'
+        'experience experience experience experience'
+        'tv tv tv tv'
+        ;
+    
+grid-template-columns: repeat(4, 1fr); /* 4 columns, matching the area names above */
+overflow: hidden;
+}
+
+
+#iphone{
+    grid-area:iphone;
+}
+
+
+#learn-more {
+    background-color: #F7F8F9;
+    grid-area:learnMore;
+}
+#keyboard {
+    grid-area: keyboard;
+}
+
+
+.font-mont{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.font-arvo{
+    font-family: 'Arvo', serif;
+}
+.font-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+.txt-grey {
+color: #9FA3A7;
+}
+#learn-more a  {
+color: #27B9C2;
+}
+
+#keyboard {
+    background-color: #F05638;
+    
+}
+#retina{
+    grid-area:retina;
+}
+.left-img{
+    
+}
+.retina-right a {
+    color: #27B9C2;
+}
+
+
+#icloud {
+    grid-area:icloud;
+    background-color: #8F76BC;
+}
+.letter-spc{
+    letter-spacing: 2px;
+}
+.sml-txt {
+font-size: 0.625rem;
+}
+.icloud-text button {
+    border:none;
+    border-bottom-right-radius: 50% ;
+   border-top-right-radius: 50%;
+   border-bottom-left-radius: 50% ;
+   border-top-left-radius: 50%;
+   
+}
+
+
+#learn-more .learn-more h1 {
+    font-size: 48px;
+    font-weight: 400;
+    padding: 0;
+}
+
+#games {
+    grid-area:games;
+    background-color: #F7F8F9;
+}
+#games a {
+    color:#27B9C2;
+}
+
+#choice {
+    grid-area:choice;
+    background-color: #93B6B7;
+
+}
+#choice .choice-img {
+        background-image: url(../images/imgi_13_5bc2f42d5a5ed97dab707e7e_UX.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.w-15{
+    width: 15% 
+}
+
+#twitter {
+    grid-area:twitter;
+    background-color:#38D5F4;
+}
+.twitter-logo {
+    background-color: #35CFED;
+    border-radius:100%;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    -ms-border-radius:100%;
+    -o-border-radius:100%;
+}
+
+.experience .badge {
+    background-color: #7BC424;
+}
+
+.red-cl {
+    background-color: #FA684F;
+}
+#experience {
+    grid-area:experience;
+}
+#tv {
+    grid-area:tv;
+    background-color: #2C2C2C;
+    /* height: 35vh; */
+    
+}
+.ylw {
+    color: #FFC80A;
+}
