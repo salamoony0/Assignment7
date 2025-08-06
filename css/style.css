@@ -120,14 +120,9 @@ font-size: 0.625rem;
     grid-area:twitter;
     background-color:#38D5F4;
 }
-.twitter-logo {
-    background-color: #35CFED;
-    border-radius:100%;
-    -webkit-border-radius:100%;
-    -moz-border-radius:100%;
-    -ms-border-radius:100%;
-    -o-border-radius:100%;
-}
+
+
+
 
 .experience .badge {
     background-color: #7BC424;
